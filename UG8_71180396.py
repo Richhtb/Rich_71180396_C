@@ -13,7 +13,6 @@ class Kasir:
     DEFAULT_CAPACITY = 3 #isi sesuai dengan ketentuan soal
     def __init__(self): #konstruktor
         self._data = [None] * Kasir.DEFAULT_CAPACITY
-        print(self._data)
         self._size = 0
        
     def __len__(self): #mengembalikan ukuran Queue
